@@ -11,6 +11,7 @@ class Teacher < User
      "bash Ruby rvm update certs"]
 
   def teach
+    binding.pry
     KNOWLEDGE
   end
 
